@@ -3,6 +3,14 @@ def random_num():
     from random import random
     return random()
 
+
 def merge_strings(s1, s2):
     # merges two strings together
     return s1 + s2
+
+
+def random_num(a, b):
+    # returns a random integer between a and b
+    from random import randint
+    return randint(a, b)
+
