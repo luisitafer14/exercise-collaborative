@@ -4,7 +4,7 @@ def random_num():
     return random()
 
 
-def random_num(a, b):
+def random_integer(a, b):
     # returns a random integer between a and b
     from random import randint
     return randint(a, b)
